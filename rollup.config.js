@@ -18,7 +18,8 @@ export default {
 	external: [
 		'react',
 		'react-proptypes',
-		'react-dom'
+		'react-dom',
+		'@ckeditor/ckeditor5-build-classic'
 	],
 	plugins: [
 		postcss({
@@ -35,5 +36,5 @@ export default {
 		}),
 		commonjs(),
 		uglify()
-	],
+	]
 };
