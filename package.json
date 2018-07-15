@@ -64,7 +64,6 @@
 	},
 	"scripts": {
 		"start": "webpack-dev-server --hot --inline --mode development",
-		"prepublishOnly": "npm run release",
 		"release": "npm run build:dev && npm run build:prod",
 		"patch": "npm version patch",
 		"publish": "npm publish",
