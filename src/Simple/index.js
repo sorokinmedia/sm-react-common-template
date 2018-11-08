@@ -9,7 +9,7 @@ function Simple(props) {
 	)
 }
 
-Simple.propTypes = {}
-Simple.defaultProps = {}
+Simple.propTypes = {};
+Simple.defaultProps = {};
 
 export default Simple
